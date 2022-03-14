@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #040714;
+    color: #fff;
+    padding: 0;
+    box-sizing: border - box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+* {
+    text-decoration: none;
+    transition: .4 s ease;
+    -webkit-transition: .4 s ease;
+    -moz-transition: .4 s ease;
+    -ms-transition: .4 s ease;
+    -o-transition: .4 s ease;
+}
+
+@media only screen and (min-width:768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media only screen and(max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+@media only screen and(max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
